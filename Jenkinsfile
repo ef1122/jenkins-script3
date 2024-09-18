@@ -2,7 +2,7 @@
 
 node('dev')
 {
-   def cardNumnber=input message: 'Introduzca el número de tarjeta', 
+   def cardNumber=input message: 'Introduzca el número de tarjeta', 
                          parameters: [string(defaultValue: '4111111111111111', 
                          name: 'cardNumber')]
    stage('Get GIT repository')
